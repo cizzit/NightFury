@@ -1,11 +1,11 @@
 import sys
 from bs4 import BeautifulSoup
 
-def get_av_fails(soup):
+def get_av_fails(soup, check):
 	results={'server':0,'workstation':0}
 	client=''
 	site=''
-	for ods in soup.find_all("check_type", check):
+	for ods in soup.find_all("check_type"):
 		if ods.string==check:
 			chk_type_parent = ods.parent.parent.parent
 			chk_type_of_machine = chk_type_parent.name
@@ -23,7 +23,7 @@ if __name__ == "__main__":
 	1020 - CryptoLocker GPO Trip
 	'''
 	try:
-		c = sys.argv[2]
+		c = str(sys.argv[2])
 	except:
 		print "Missing check value!"
 		exit()

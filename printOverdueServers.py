@@ -9,7 +9,7 @@ def get_overdue(soup):
 		server = ods.parent
 		server_name = server.find('name').string[:]
 		site_name = server.parent.parent.find('name').string[:]
-		client_name = %server.parent.parent.parent.find('name').string[:]
+		client_name = server.parent.parent.parent.find('name').string[:]
 		if client_name not in results:
 			results[client_name] = {}
 		if site_name not in results[client_name]:

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<result created="2014-06-26T08:20:42+10:00" host="system-monitor.com" status="OK">
+	<items>
+		<client>
+			<clientid>13371</clientid>
+			<name><![CDATA[CLIENTONE]]></name>
+			<site>
+				<siteid>17948</siteid>
+				<name><![CDATA[SITENAME1]]></name>
+				<workstations>
+					<workstation>
+						<id>90125</id>
+						<name><![CDATA[WORKSTATIONONE]]></name>
+						<failed_checks>
+							<check>
+								<checkid>3558122</checkid>
+								<check_type>1020</check_type>
+								<description><![CDATA[Event Log Check - Application|GPO block - Potential Cryptolocker]]></description>
+								<dsc_247>1</dsc_247>
+								<date>2014-06-26</date>
+								<time>08:01:51</time>
+								<formatted_output><![CDATA[ID:866, BLAHBLAHBLAH]]></formatted_output>
+								<checkstatus><![CDATA[testerror]]></checkstatus>
+							</check>
+							<check>
+								<checkid>3707141</checkid>
+								<check_type>1001</check_type>
+								<description><![CDATA[Antivirus Update Check - Trend Worry-Free Business Security Smart Scan]]></description>
+								<dsc_247>2</dsc_247>
+								<date>2014-06-26</date>
+								<time>08:01:54</time>
+								<formatted_output><![CDATA[Product not found]]></formatted_output>
+								<checkstatus><![CDATA[testerror]]></checkstatus>
+							</check>
+						</failed_checks>
+					</workstation>
+					<workstation>
+						<id>90444</id>
+						<name><![CDATA[WORKSTATIONTWO]]></name>
+						<failed_checks>
+							<check>
+								<checkid>3558838</checkid>
+								<check_type>1020</check_type>
+								<description><![CDATA[Event Log Check - Application|GPO block - potential Cryptolocker]]></description>
+								<dsc_247>2</dsc_247>
+								<date>2014-06-26</date>
+								<time>08:01:54</time>
+								<formatted_output><![CDATA[ID:866, BLAHBLAHBLAH]]></formatted_output>
+								<checkstatus><![CDATA[testerror]]></checkstatus>
+							</check>
+							<check>
+								<checkid>3249684</checkid>
+								<check_type>1001</check_type>
+								<description><![CDATA[Antivirus Update Check - Trend Worry-Free Business Security Conventional Scan]]></description>
+								<dsc_247>2</dsc_247>
+								<date>2014-06-26</date>
+								<time>08:02:18</time>
+								<formatted_output><![CDATA[Product not found]]></formatted_output>
+								<checkstatus><![CDATA[testerror]]></checkstatus>
+							</check>
+						</failed_checks>
+					</workstation>
+				</workstations>
+				<servers>
+				<server>
+						<id>50552</id>
+						<name><![CDATA[SERVERNAMEONE]]></name>
+						<overdue>
+							<description><![CDATA[Overdue]]></description>
+							<startdate>2014-06-25</startdate>
+							<starttime>22:04:56</starttime>
+						</overdue>
+					</server>
+					<server>
+						<id>50553</id>
+						<name><![CDATA[SERVERNAMETWO]]></name>
+						<overdue>
+							<description><![CDATA[Overdue]]></description>
+							<startdate>2014-06-25</startdate>
+							<starttime>22:04:56</starttime>
+						</overdue>
+					</server>
+				</servers>
+			</site>
+		</client>
+		<client>
+			<clientid>11773</clientid>
+			<name><![CDATA[CLIENTTWO]]></name>
+			<site>
+				<siteid>15759</siteid>
+				<name><![CDATA[SITENAMETWO]]></name>
+				<workstations/>
+				<servers>
+					<server>
+						<id>51458</id>
+						<name><![CDATA[SERVERONE]]></name>
+						<failed_checks>
+							<check>
+								<checkid>1349336</checkid>
+								<check_type>1001</check_type>
+								<description><![CDATA[Antivirus Update Check - Trend Worry-Free Business Security Smart Scan]]></description>
+								<dsc_247>2</dsc_247>
+								<date>2014-06-26</date>
+								<time>06:04:09</time>
+								<consecutive_fails>13</consecutive_fails>
+								<startdate>2014-06-14</startdate>
+								<starttime>06:01:29</starttime>
+								<formatted_output>851</formatted_output>
+								<checkstatus><![CDATA[testerror]]></checkstatus>
+							</check>
+						</failed_checks>
+					</server>
+					<server>
+						<id>50551</id>
+						<name><![CDATA[SERVERTWO]]></name>
+						<overdue>
+							<description><![CDATA[Overdue]]></description>
+							<startdate>2014-06-25</startdate>
+							<starttime>22:04:56</starttime>
+						</overdue>
+					</server>
+				</servers>
+			</site>
+		</client>
+	</items>
+</result>
